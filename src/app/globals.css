@@ -1,0 +1,92 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Brand colors — from Wah Cafe Wix CSS vars */
+  --color-forest: #034230;
+  --color-forest-light: #045a40;
+  --color-gray: #f0f0f0;
+  --color-text: #000000;
+  --color-blue: #116dff;
+  --color-slate: #2b5672;
+  --color-green: #399f00;
+  --color-danger: #e03939;
+  --color-beige: #f2eae7;
+  --color-tan: #e5cec0;
+  --color-brown: #a9806f;
+  --color-peach: #ffe9df;
+  --color-orange: #fa854f;
+  --font-sans: 'Inter', 'Aptos', 'Aptos Display', system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: #000;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Wah Cafe CTA button */
+.btn-wah {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 32px;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #000;
+  background: #f0f0f0;
+  border: 1px solid #034230;
+  border-radius: 0;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+.btn-wah:hover {
+  background: #034230;
+  color: #fff;
+}
+
+.section-heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #034230;
+  text-align: center;
+}
+
+.page-heading {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #034230;
+}
+
+.content-wrap {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #2b5672;
+}
+
+.hero-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #2b5672;
+}

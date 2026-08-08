@@ -1,0 +1,200 @@
+{
+  "Breakfast Menu": {
+    "description": "Kickstart your day with our delightful breakfast menu, featuring fresh, wholesome options like fluffy pancakes, hearty sandwiches, and refreshing beverages to energize your mornings!",
+    "items": [
+      {"name": "Eggs to order", "is_veg": false},
+      {"name": "Medu Vada", "is_veg": true},
+      {"name": "Mysore Bonda", "is_veg": true},
+      {"name": "Masala Vada", "is_veg": true},
+      {"name": "Aloo Bonda", "is_veg": true},
+      {"name": "Kanchipuram Idli", "is_veg": true},
+      {"name": "Carrot Idli", "is_veg": true},
+      {"name": "Beetroot Idli", "is_veg": true},
+      {"name": "Rava Idli", "is_veg": true},
+      {"name": "Tomato idli", "is_veg": true},
+      {"name": "Pan Cake", "is_veg": true},
+      {"name": "French Toast", "is_veg": false},
+      {"name": "Banana Pan cake", "is_veg": true},
+      {"name": "Choco French Toast", "is_veg": false},
+      {"name": "Nuts Pan Cake", "is_veg": true},
+      {"name": "Mix Veg Upma", "is_veg": true},
+      {"name": "Pongal", "is_veg": true},
+      {"name": "Aloo Poha", "is_veg": true},
+      {"name": "Fresh Fruit Juice", "is_veg": true},
+      {"name": "Bisibelle Bhat", "is_veg": true},
+      {"name": "Semiya Upma", "is_veg": true},
+      {"name": "Sambar", "is_veg": true},
+      {"name": "Chutney", "is_veg": true},
+      {"name": "Cut Fruits", "is_veg": true}
+    ]
+  },
+  "Lunch Menu": {
+    "description": "Indulge in a satisfying lunch with our diverse menu, offering flavorful curries, aromatic biryanis, hearty wraps, and fresh salads. Each dish is crafted with quality ingredients and authentic recipes, ensuring a perfect blend of taste and nutrition. Pair your meal with refreshing beverages for a delightful midday treat.",
+    "subcategories": {
+      "Soup": [
+        {"name": "Chinese ABC Soup", "is_veg": true},
+        {"name": "Drumstick Dal Shorba", "is_veg": true},
+        {"name": "Roasted Pumpkin Soup", "is_veg": true},
+        {"name": "Minestrone Soup", "is_veg": true},
+        {"name": "Cream of Broccoli Soup", "is_veg": true}
+      ],
+      "Salad Veg": [
+        {"name": "Kosambari Salad", "is_veg": true},
+        {"name": "Creamy Cucumber salad", "is_veg": true},
+        {"name": "Black Channa Sundal", "is_veg": true},
+        {"name": "American Corn & Cherry tomato salad", "is_veg": true},
+        {"name": "Sprouted Moong Salad", "is_veg": true}
+      ],
+      "Vegetable Apptizer": [
+        {"name": "Salt and Pepper Babycorn", "is_veg": true},
+        {"name": "Veg Croquettes", "is_veg": true},
+        {"name": "Tandoori Subzi", "is_veg": true},
+        {"name": "Vegetable Gold Coin", "is_veg": true},
+        {"name": "Falafel", "is_veg": true}
+      ],
+      "Non Veg Maincourse": [
+        {"name": "Cantonese Chicken with Mushroom", "is_veg": false},
+        {"name": "Murgh Do Pyaza", "description": "chicken cooked with dice onion and Indian Spice", "is_veg": false},
+        {"name": "Chicken Fricassee with Mushroom", "description": "chicken stew with a creamy mushroom sauce", "is_veg": false},
+        {"name": "Harissa Spiced Fish with Cous Cous", "description": "Fish Fillet prepared with Harissa Spices laid on bed of Cous Cous", "is_veg": false},
+        {"name": "Barbeque Glazed Chicken", "description": "Chicken grilled in Barbeque Sauce", "is_veg": false}
+      ],
+      "Veg Main Course": [
+        {"name": "Veg Dumpling with Sweet & Sour Sauce", "is_veg": true},
+        {"name": "Spinach and Corn Bake", "description": "Corn and Spinach baked with Creamy Sauce", "is_veg": true},
+        {"name": "Veg Ratatouille", "description": "Veg Stew cooked in tomato herb sauce", "is_veg": true},
+        {"name": "Baked Veg Florentine", "description": "Cauliflower & Broccoli baked in creamy sauce", "is_veg": true},
+        {"name": "Veg Cannelloni", "description": "Cannelloni filled with vegetable and baked in Italian Sauce", "is_veg": true}
+      ],
+      "Veg Main Course - Protein": [
+        {"name": "Paneer Pudina Khaas", "description": "Indian Cheese cooked in mint gravy", "is_veg": true},
+        {"name": "Paneer Pasanda", "description": "Stuffed Indian Cheese prepared in onion gravy", "is_veg": true},
+        {"name": "Paneer Kaju ki Subji", "description": "Indian Cheese cooked in onion and tomato gravy top with cashew nuts", "is_veg": true},
+        {"name": "Chaman Ke Kofte", "description": "Indian Cheese dumpling cooked in makhani gravy", "is_veg": true},
+        {"name": "Paneer Korma", "description": "Indian cheese simmered in a fragrant and delicious kurma gravy", "is_veg": true}
+      ],
+      "Veg Main Course - Semi Dry": [
+        {"name": "Do Phool Ka Subzi", "description": "Cauliflower & Broccoli cooked with Indian Spiced", "is_veg": true},
+        {"name": "Kadi Pakodi", "description": "deep fried pakoras dunked in a tangy yogurt based curry", "is_veg": true},
+        {"name": "Aloo Palak", "description": "Potato cooked with shredded spinach", "is_veg": true},
+        {"name": "Bhindi do Pyaza", "description": "Okra cooked dice onion and Indian Spices", "is_veg": true},
+        {"name": "Phaldari Kofte", "description": "Raw Banana Dumpling dunked in a tomato gravy", "is_veg": true}
+      ],
+      "Cuisine Starch": [
+        {"name": "Subzi Pulao", "description": "Rice Pilaf cooked with mix vegetable", "is_veg": true},
+        {"name": "Jeera Pulao", "description": "Rice Pilaf cooked with Cumin Seeds", "is_veg": true},
+        {"name": "Zaffrani Pulao", "description": "Rice Pilaf cooked with flavoured Saffron", "is_veg": true},
+        {"name": "Gatte ke Pulao", "description": "Rice Pilaf cooked with steamed gram flour gatte", "is_veg": true},
+        {"name": "Moti Pulao", "description": "Rice Pilaf cooked with Indian spice topped with cheese balls", "is_veg": true}
+      ],
+      "Indian Starch": [
+        {"name": "Steamed Rice", "is_veg": true}
+      ],
+      "Lentil Dish": [
+        {"name": "Dal Amritsari", "description": "Lentils cooked in a thick, healthy protein gravy", "is_veg": true},
+        {"name": "Peshawari Chole", "description": "Chickpeas cooked in chatpata gravy", "is_veg": true},
+        {"name": "Dal Jamavar", "description": "Lentil cooked with silky and creamy gravy", "is_veg": true},
+        {"name": "Rajma Raseela", "description": "Red kidney beans with aromatic spices cooked in onion and tomato based curry", "is_veg": true},
+        {"name": "Punjabi Dal tadka", "description": "Yellow Lentils tempered in Indian spices", "is_veg": true}
+      ],
+      "Indian Bread": [
+        {"name": "Naan", "is_veg": true},
+        {"name": "Roti", "is_veg": true},
+        {"name": "Kulcha", "is_veg": true},
+        {"name": "Chapati", "is_veg": true}
+      ],
+      "Accompaniments": [
+        {"name": "Papad", "is_veg": true},
+        {"name": "Pickle", "is_veg": true},
+        {"name": "Curd", "is_veg": true}
+      ],
+      "Pre Plated Desserts": [
+        {"name": "Rasgulla/Apple & Cinnamon Pie", "is_veg": true},
+        {"name": "Gulab Jamun with Vanilla Ice Cream / Blueberry Cheese cake", "is_veg": true},
+        {"name": "Rasmalai/Chocolate Brownie with Ice Cream", "is_veg": true},
+        {"name": "Jalebi with Rabdi/Dry Nuts & Fruit Struddle", "is_veg": true},
+        {"name": "Chocolate pastry/ Baked Angoori Jamun", "is_veg": true},
+        {"name": "Cut Fruits", "is_veg": true}
+      ]
+    }
+  },
+  "Hi-Tea Menu": {
+    "description": "Delight in our Hi-Tea menu featuring aromatic teas, savory bites, sweet treats, and refreshing beverages, perfect for a relaxing and indulgent experience.",
+    "items": [
+      {"name": "Sprouts Salad", "is_veg": true},
+      {"name": "Carrot & Raisin Salad", "is_veg": true},
+      {"name": "American Corn Salad", "is_veg": true},
+      {"name": "Chickpea and Cucumber Salad", "is_veg": true},
+      {"name": "Raja Congress Salad", "is_veg": true},
+      {"name": "Peri Peri Cheese Sandwich", "is_veg": true},
+      {"name": "Coleslaw Sandwich", "is_veg": true},
+      {"name": "Rainbow Sandwich", "is_veg": true},
+      {"name": "Focassia Grilled vegetable sandwich", "is_veg": true},
+      {"name": "Bombay Sandwich", "is_veg": true},
+      {"name": "Mini Samosa", "is_veg": true},
+      {"name": "Mini Kachori", "is_veg": true},
+      {"name": "Peas Potli Samosa", "is_veg": true},
+      {"name": "Mini Veg Kathi Roll", "is_veg": true},
+      {"name": "Cheesy Veggie Vol-au-Vents", "is_veg": true},
+      {"name": "Paddu", "is_veg": true},
+      {"name": "Quasadilla", "is_veg": true},
+      {"name": "Vegetable Bao", "is_veg": true},
+      {"name": "Calzone", "is_veg": true},
+      {"name": "Mini Veg Quiche", "is_veg": true},
+      {"name": "Chocolate Nanaimo Bar", "is_veg": true},
+      {"name": "Quick Cherry Turn Over", "is_veg": true},
+      {"name": "Mini Blue Berry Bundt Cake", "is_veg": true},
+      {"name": "Pine Apple Upside down Cake", "is_veg": true},
+      {"name": "Citrus Prunes Coffee Cake", "is_veg": true},
+      {"name": "Fresh Fruit Juice", "is_veg": true}
+    ]
+  },
+  "Bento Box Menu": {
+    "description": "Our weekly Bento Box menu offers a curated selection of meals with fresh daily options.",
+    "note": "Bento Box items need manual verification — the Wix table rows appear misaligned in the source HTML.",
+    "subcategories": {
+      "Dessert": [
+        {"name": "Rasgulla", "is_veg": true},
+        {"name": "Creamy Cucumber salad", "is_veg": true},
+        {"name": "Black Channa Sundal", "is_veg": true},
+        {"name": "American Corn & Cherry tomato salad", "is_veg": true},
+        {"name": "Sprouted Moong Salad", "is_veg": true}
+      ],
+      "Indian Breads": [
+        {"name": "Tawa Paratha/Chapati", "is_veg": true},
+        {"name": "Kadi Pakodi", "description": "deep fried pakoras dunked in a tangy yogurt based curry", "is_veg": true},
+        {"name": "Aloo Palak", "description": "Potato cooked with shredded spinach", "is_veg": true},
+        {"name": "Bhindi do Pyaza", "description": "Okra cooked dice onion and Indian Spices", "is_veg": true},
+        {"name": "Phaldari Kofte", "description": "Raw Banana Dumpling dunked in a tomato gravy", "is_veg": true}
+      ],
+      "Flavoured Rice": [
+        {"name": "Subzi Pulao", "description": "Rice Pilaf cooked with mix vegetable", "is_veg": true},
+        {"name": "Peshawari Chole", "description": "Chickpeas cooked in chatpata gravy", "is_veg": true},
+        {"name": "Dal Makhani", "description": "Lentil cooked with silky and creamy gravy", "is_veg": true},
+        {"name": "Rajma Raseela", "description": "Red kidney beans with aromatic spices cooked in onion and tomato based curry", "is_veg": true},
+        {"name": "Punjabi Dal tadka", "description": "Yellow Lentils tempered in Indian spices", "is_veg": true}
+      ],
+      "Dal": [
+        {"name": "Dal Amritsari", "description": "Lentils cooked in a thick, healthy protein gravy", "is_veg": true},
+        {"name": "Gatte ke Pulao", "description": "Rice Pilaf cooked with steamed gram flour gatte", "is_veg": true},
+        {"name": "Zaffrani Pulao", "description": "Rice Pilaf cooked with flavoured Saffron", "is_veg": true},
+        {"name": "Jeera Pulao", "description": "Rice Pilaf cooked with Cumin Seeds", "is_veg": true},
+        {"name": "Motiya Pulao", "description": "Rice Pilaf cooked with Indian spice topped with cheese balls", "is_veg": true}
+      ],
+      "Main Course Veg": [
+        {"name": "Do Phool Ka Subzi", "description": "Cauliflower & Broccoli cooked with Indian Spiced", "is_veg": true},
+        {"name": "Tawa Paratha/Chapati", "is_veg": true},
+        {"name": "Tawa Paratha/Chapati", "is_veg": true},
+        {"name": "Tawa Paratha/Chapati", "is_veg": true},
+        {"name": "Tawa Paratha/Chapati", "is_veg": true}
+      ],
+      "Salad": [
+        {"name": "Kachumber Salad", "is_veg": true},
+        {"name": "Gulab Jamun", "is_veg": true},
+        {"name": "Chocolate Brownie", "is_veg": true},
+        {"name": "Dry Nuts & Fruit Struddle", "is_veg": true},
+        {"name": "Cut Fruits", "is_veg": true}
+      ]
+    }
+  }
+}
